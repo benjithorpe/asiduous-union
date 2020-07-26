@@ -5,7 +5,9 @@
 
 body {
   font-size: 20px;
-  font-family: tahoma, serif;
+  font-family: arial, tahoma, serif;
+  color: black;
+  background-color: lightgray;
 }
 
 main {
@@ -27,13 +29,14 @@ h1 {
 }
 
 header small {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 nav {
   position: sticky;
   top: 0px;
-  background-color: white;
+  text-align: center;
+  background-color: gray;
 }
 
 ul {
@@ -43,17 +46,22 @@ ul {
 nav > ul li {
   display: inline;
   padding: 10px;
+  margin: 10px;
   font-size: 25px;
-  font-family: consolas;
+  font-family: arial, sans-serif;
   text-transform: capitalize;
 }
 
-nav a {
+nav li > a {
+  color: white;
+}
+
+a {
   text-decoration: none;
 }
 
 div {
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 
@@ -72,22 +80,28 @@ div {
 
 
 footer {
-  margin-top: 20px;
+  margin: 20px;
   text-transform: capitalize;
+  text-align: center;
 }
 
-footer
+footer li {
+  display: inline;
+}
+
+
 
 
 
 @media screen and (max-width: 480px) {
   body {
-    color: red;
+    width: 90%;
+    margin: auto;
   }
 
   h1 {
-    font-size: 30px;
-    color: red;
+    font-size: 40px;
+    font-family: sans-serif;
   }
 }
 
