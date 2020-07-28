@@ -6,61 +6,83 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Asiduous Union</title>
 
-	<!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="body_style.css">
 </head>
 
 <body>
-
-	<nav id="nav" class="sidenav">
-	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <a href="#">Home</a>
-	  <a href="#">About</a>
-	  <a href="#">Contact</a>
-	  <a href="#">Executives</a>
-	</nav>
-
-	<span style="font-size:50px;cursor:pointer;" onclick="openNav()">
-		<b>&#9776;</b>
-	</span>
-
+	<!-- logo and header -->
 	<header>
 		<h1>Asiduous Union</h1>
-		<small><b>Motto:</b> <q>if you wish to go far always go together</q></small>
+		<small>
+			<b>Motto:</b> <q>if you wish to go far always go together</q>
+		</small>
 	</header>
 
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Executives</a>
+		<a href="#">Contact</a>
+	</nav>
+
 	<main>
-		<!-- description -->
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-		do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-		</p>
+		<!-- about -->
+		<section>
+			<h2>about us</h2>
 
-		<div>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</div>
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
 
-		<div>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</div>
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</section>
+
+		<!-- executive members -->
+		<section>
+			<h2>executive members</h2>
+
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</section>
+
+		<!-- contact -->
+		<section>
+			<h2>contact us</h2>
+
+			<form action="#" method="POST">
+				<label>name
+					<input type="text" name="name" id="name"2 placeholder="Enter name...">
+				</label>
+
+				<label>email
+					<input type="email" name="email" id="email" placeholder="Enter email...">
+				</label>
+
+				<label>
+					<textarea name="message" rows="5" placeholder="Enter message here"></textarea>
+				</label>
+
+				<input type="button" value="Send">
+
+				<div class="media">
+					<p>Or join us on</p>
+					<a href="#">facebook</a>
+					<a href="#">twitter</a>
+				</div>
+			</form>
+		</section>		
 	</main>
 
 	<footer>
-		<ul>
-			<li><a href="#">facebook</a></li>
-			<li><a href="#">twitter</a></li>
-			<li><a href="#">email</a></li>
-		</ul>
+		<small>&copy;2020 - asiduous union</small>
 	</footer>
-
-	<script>
-		function openNav() {
-		  document.getElementById("nav").style.width = "200px";
-		}
-
-		function closeNav() {
-	  	document.getElementById("nav").style.width = "0";
-		}
-	</script>
 </body>
 </html>
