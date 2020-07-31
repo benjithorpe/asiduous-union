@@ -3,86 +3,143 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
 	<title>Asiduous Union</title>
 
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="body_style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-	<!-- logo and header -->
-	<header>
-		<h1>Asiduous Union</h1>
-		<small>
-			<b>Motto:</b> <q>if you wish to go far always go together</q>
-		</small>
-	</header>
+<body class="container-fluid">
 
-	<nav>
-		<a href="#">Home</a>
-		<a href="#">About</a>
-		<a href="#">Executives</a>
-		<a href="#">Contact</a>
+	<nav class="bg-dark sticky-top">
+		<ul class="pagination">	
+			<li class="page-item p-3">
+				<a href="#about">About</a>
+			</li>
+
+			<li class="page-item p-3">
+				<a href="#events">Events</a>
+			</li>
+
+			<li class="page-item p-3">
+				<a href="#exec">Executives</a>
+			</li>
+
+			<li class="page-item p-3">
+				<a href="#contact">Contact</a>
+			</li>
+		</ul>
 	</nav>
 
-	<main>
-		<!-- about -->
-		<section>
-			<h2>about us</h2>
+	<!-- header -->
+	<header class="jumbotron text-center">
+		<h1 class="display-3">Asiduous Union</h1>
+		<h4>
+			<b>Motto:</b> <q>if you wish to go far always go together</q>
+		</h4>
+	</header>
 
-			<div>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
+	<main class="container">
+		<article>
+			<!-- about -->
+			<section class="p-2 container-fluid" id="about">
+				<h2 class="display-4">about us</h2>
 
-			<div>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-		</section>
+				<!-- short description -->
+				<div>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
 
-		<!-- executive members -->
-		<section>
-			<h2>executive members</h2>
+				<!-- our aims and objective -->
+				<div class="p-3 text-center">
+					<h5>Our Aims and Objectives</h5>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</div>
+			</section>
 
-			<div>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
+			<!-- events -->
+			<section class="my-4" id="events">
+				<h2 class="display-4">events</h2>
 
-			<div>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-		</section>
+				<div class="jumbotron">
+					<p>Upcoming outing date to be announced soon!!</p>
+				</div>
+			</section>
+
+			<!-- executive members -->
+			<section id="exec">
+				<h2 class="display-4">executives</h2>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-3">
+						<figure>
+							<img src="" alt="president">
+							<figcaption>President</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-md-6 col-lg-3">
+						<figure>
+							<img src="" alt="chairman">
+							<figcaption>Chairman</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-md-6 col-lg-3">
+						<figure>
+							<img src="" alt="treasurer">
+							<figcaption>Treasurer</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-md-6 col-lg-3">
+						<figure>
+							<img src="" alt="P.R.O">
+							<figcaption>Public Relations Officer</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+		</article>
 
 		<!-- contact -->
-		<section>
-			<h2>contact us</h2>
+		<section class="my-3">
+			<h2 class="display-4" id="contact">contact us</h2>
 
-			<form action="#" method="POST">
-				<label>name
-					<input type="text" name="name" id="name"2 placeholder="Enter name...">
-				</label>
+			<form action="#" method="POST" class="p-5 my-4 shadow">
 
-				<label>email
-					<input type="email" name="email" id="email" placeholder="Enter email...">
-				</label>
-
-				<label>
-					<textarea name="message" rows="5" placeholder="Enter message here"></textarea>
-				</label>
-
-				<input type="button" value="Send">
-
-				<div class="media">
-					<p>Or join us on</p>
-					<a href="#">facebook</a>
-					<a href="#">twitter</a>
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" placeholder="John Doe" class="form-control" required>	
 				</div>
+
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" placeholder="johndoe@gmail.com" class="form-control" required>	
+				</div>
+
+				<div class="form-group">
+					<label for="msg">Message:</label>
+					<textarea name="msg" id="msg"rows="4" placeholder="Enter message..." class="form-control"></textarea>	
+				</div>
+
+				<button type="submit" class="btn btn-outline-primary btn-block">Send</button>
 			</form>
 		</section>		
 	</main>
 
-	<footer>
-		<small>&copy;2020 - asiduous union</small>
+	<footer class="text-center">		
+		<div>
+			<p><span class="btn">Or join us on</span> 
+				<a href="#" class=" btn btn-link" style="margin: 5px;">Facebook</a>
+				<a href="#" class=" btn btn-link" style="margin: 5px;">Twitter</a>
+			</p>
+		</div>	
+
+		<h4>&copy;2020 - Asiduous Union</h4>
 	</footer>
 </body>
 </html>
