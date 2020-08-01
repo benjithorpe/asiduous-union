@@ -8,3 +8,13 @@ h2 {
     text-transform: capitalize;
     margin: 30px 0px;
 }
+
+figure img {
+    width: 300px;
+    height: auto;
+    border-radius: 70%;
+}
+
+figcaption {
+    font-size: 30px;
+}
