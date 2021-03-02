@@ -37,7 +37,7 @@ h2 {
 
 .about-us section{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
     grid-column-gap: 10px;
     align-items: center;
 }
@@ -111,6 +111,15 @@ figcaption {
 
     header small{
         font-size: 1.2em;
+    }
+
+    .aims p{
+        margin-bottom: 10px;
+    }
+
+    .aims ul{
+        list-style-type: disc;
+        line-height: 1.5em;
     }
 
     .aims{
